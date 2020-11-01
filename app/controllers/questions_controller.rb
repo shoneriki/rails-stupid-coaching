@@ -3,6 +3,9 @@ class QuestionsController < ApplicationController
   def ask
   end
 
+  def answer
+  end
+
 end
 
 # If the message is I am going to work, the coach will answer Great!
