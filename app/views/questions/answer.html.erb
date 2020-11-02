@@ -1,1 +1,21 @@
-<h1>answer page</h1>
+
+<div class="you">
+<blockquote class="blockquote">
+  <p class="mb-0"><%= params[:question]%></p>
+  <footer class="blockquote-footer">You</footer>
+</blockquote>
+
+</div>
+
+
+<div class="answer">
+<blockquote class="blockquote">
+  <h3 class="mb-0"><%= @answer%></h3>
+  <footer class="blockquote-footer">Your coach</footer>
+</blockquote>
+</div>
+
+<div class="link">
+<%= link_to "Ask a new question", ask_path%>
+</div>
+

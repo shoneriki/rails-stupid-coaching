@@ -1,8 +1,8 @@
-<h1>I am here</h1>
-<form action="/answer" method="get">
-  <input type="text" name="question">
-  <input type="submit" value="Ask!">
+
+<h5>Ask your coach anything:</h5>
+
+<form class= "form-inline" action="/answer" method="get">
+  <input type="text" class="form-control" name="question" value="<%= params[:question] %>">
+  <input type="submit" value="Ask!" class="btn btn-primary"> 
 </form>
 
-<%# what site are we going to for action %>
-<%# name should be question? %>
